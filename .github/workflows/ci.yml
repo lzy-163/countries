@@ -20,8 +20,8 @@ jobs:
       - name: npm install
         run: npm install jsonlint
 
-      - name: composer install
-        run: composer install
+      - name: composer update
+        run: composer update
 
       - name: JSON lint
         run: bash ./ci/test.sh
